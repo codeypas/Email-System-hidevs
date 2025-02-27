@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Project-Rejection-Email</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body 
+    style="font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; color: #333;">
+
+    <table align="center" width="100%"
+        style="background: #fff; padding: 20px; border-radius: 10px; text-align: center; max-width: 800px; width: 100%; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);">
+
+        <!-- Header Start -->
+        <tr>
+            <td align="center" style="padding: 20px;">
+                <h2 style="font-size: 22px; color: #d9534f; font-weight: bold;">Don’t Be Discouraged – Keep Going!</h2>
+                <p style="font-size: 16px; color: #333333; line-height: 1.5; max-width: 600px;">
+                    Every great achievement comes with challenges. While your project didn’t meet the approval criteria
+                    this time, it’s an opportunity to learn, improve, and come back stronger.
+                    We appreciate the effort and dedication you’ve put in, and we’re here to support you on your journey!
+                </p>
+                
+                <img src="reject.png" alt="Project Rejected" width="100%"
+                    style="max-width: 500px; display: block; margin: auto;">
+            </td>
+        </tr>
+
+       
+        <tr>
+            <td align="center" style="padding: 20px;">
+                <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" align="center"
+                    style="max-width: 600px;">
+                    <tr>
+                        <td align="left" style="font-size: 16px; color: #333; line-height: 1.5; padding-bottom: 10px;">
+                            📌 <strong>Learn & Improve</strong><br>
+                            Review the feedback and work on the necessary changes to refine your project for a stronger resubmission.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="left" style="font-size: 16px; color: #333; line-height: 1.5; padding-bottom: 10px;">
+                            🔍 <strong>Seek Guidance</strong><br>
+                            Connect with mentors, join discussions, and leverage resources to strengthen your understanding and project quality.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="left" style="font-size: 16px; color: #333; line-height: 1.5; padding-bottom: 10px;">
+                            ✨ <strong>Stay Motivated</strong><br>
+                            Many successful projects faced rejections before making an impact. This is just a stepping stone in your journey!
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="left" style="font-size: 16px; color: #333; line-height: 1.5;">
+                            🚀 <strong>Resubmit with Confidence</strong><br>
+                            Take your time to improve and resubmit when you're ready. We’re excited to see your growth!
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <!-- Header End -->
+
+        <!-- rejected message start -->
+        <tr>
+            <td style="border: 2px solid rgb(243 232 255); border-radius: 0.75rem; padding: 20px; position: relative; text-align: center;">
+
+                
+                <div style="position: relative; display: flex; justify-content: center; align-items: center; flex-direction: column;">
+                    
+                    <div id="sad-face" 
+                        style="font-size: 50px; opacity: 0; position: relative; margin-bottom: 10px; animation: drop 1.2s ease-in-out forwards;">
+                        😞
+                    </div>
+
+                    <h2 style="color: #d9534f; font-size: 24px; margin-top: 10px;">Project Rejected</h2>
+
+                    <p style="font-size: 16px; line-height: 1.6;">Your project submission has been reviewed, but unfortunately, it did not meet the required criteria.</p>
+                    <p style="font-size: 16px; font-weight: bold;">Reason for Rejection: [Insert reason dynamically]</p>
+                    <p style="font-size: 16px;">We encourage you to improve your project and try again!</p>
+
+                    
+                    <div id="rejection-stamp"
+                        style="font-size: 30px; color: red; font-weight: bold; transform: rotate(-15deg); opacity: 0; animation: fadeIn 1.5s ease-in-out 1s forwards;">
+                        ❌ REJECTED
+                    </div>
+                </div>
+
+               
+                <a href="Project.html"
+                    style="display: inline-block; padding: 12px 20px; background-color: #6a0dad; color: #fff; text-decoration: none; border-radius: 5px; font-weight: bold; margin-top: 20px;">
+                    Go to Project
+                </a>
+            </td>
+        </tr>
+
+        <style>
+            @keyframes drop {
+                0% { opacity: 0; transform: translateY(-30px); }
+                100% { opacity: 1; transform: translateY(0); }
+            }
+
+            @keyframes fadeIn {
+                0% { opacity: 0; transform: rotate(-20deg) scale(0.8); }
+                100% { opacity: 1; transform: rotate(-15deg) scale(1); }
+            }
+
+            /* Responsive Adjustments */
+            @media screen and (max-width: 600px) {
+                table {
+                    width: 100%;
+                }
+
+                h2 {
+                    font-size: 20px;
+                }
+
+                p {
+                    font-size: 14px;
+                }
+
+                a {
+                    display: block;
+                    width: 80%;
+                    text-align: center;
+                    margin: 10px auto;
+                }
+
+                #sad-face {
+                    font-size: 40px;
+                }
+
+                #rejection-stamp {
+                    font-size: 24px;
+                    transform: rotate(-10deg);
+                }
+            }
+        </style>
+        <!-- rejected message end -->
+
+        <!-- Footer Start -->
+        <tr>
+            <td align="center" style="padding: 10px;">
+                <table role="presentation" style="max-width: 600px; text-align: center;">
+                    <tr>
+                        <td style="padding-right: 10px;">
+                            <img src="https://framerusercontent.com/images/tw0EqVrz6hJsdCjbrRD6KQEEM4k.png"
+                                alt="HiDevs Logo" width="60" style="vertical-align: middle;">
+                        </td>
+                        <td style="font-size: 16px; font-weight: bold; color: #000000; vertical-align: middle;">
+                            We believe in your growth, <br> The HiDevs Team
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <!-- Footer End -->
+    </table>
+</body>
+
+</html>
